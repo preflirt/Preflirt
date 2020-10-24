@@ -1,0 +1,153 @@
+/* ----------------------------------------------------
+  Created by Christina Truong for Ladies Learning Code
+  http://ladieslearningcode.com
+  http://christinatruong.com
+-------------------------------------------------------*/
+
+
+/* GLOBAL STYLES
+-----------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; /* dark, almost black, gray colour */
+}
+h1,
+h2 {
+  font-family: "Nixie One", serif;
+  font-weight: 300; /* removes default bold styles */
+  text-transform: uppercase;
+  margin: 0; /* removes default space */
+  text-align: center;
+}
+a {
+  color: #bf6d50;
+  text-decoration: none; /* removes default underline */
+}
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+.highlight {
+  color: #bf6d50;
+}
+
+/* HEADER STYLES
+-----------------------------------------*/
+header h1 {
+  font-size: 48px;
+}
+header h2 {
+  font-size: 24px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+}
+header.solid
+{
+	border-style:solid;
+	border-width:2px;
+}
+header img
+{
+	width:20%;
+	height:20%;
+}
+header h1 {
+  width: 60%;
+}
+
+<div class="header">
+  <header class="solid">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Stj%C3%A4rna.svg/2000px-Stj%C3%A4rna.svg.png" alt="star"/>
+  <h1 align="center"><b>T E S T I N G<br>I S<br>F U N</b></h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Stj%C3%A4rna.svg/2000px-Stj%C3%A4rna.svg.png" alt="star"/>
+  </header>
+ </div>
+nav a {
+  padding: 20px;
+}
+
+/* HOME PAGE STYLES
+-----------------------------------------*/
+.hero-image {
+  width: 100%;
+}
+
+/* Tips STYLES
+-----------------------------------------*/
+.profile-img {
+  float: left;
+  margin-right: 20px;
+  width: 50%; /* Force the profile image to always take up 50% of available horizontal space. */
+}
+blockquote {
+  clear: both;
+  padding: 5px 150px;
+  text-align: center;
+}
+blockquote p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+/* Game STYLES
+-----------------------------------------*/
+.game {
+  background: url(../images/background-8.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.game main {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.game main h1 {
+  text-transform: none;
+}
+
+/* FOOTER STYLES
+-----------------------------------------*/
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+  text-transform: lowercase;
+}
+.fondo{
+	background-image: url("imágenes/fondo corazones.jpg")
+}
+body.solid
+{
+	border-style:solid;
+	border-width:2px;
+}
+body img
+{
+	width:20%;
+	height:20%;
+}
+body h1 {
+  width: 60%;
+}
+
+<div class="body">
+  <body class="solid">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Stj%C3%A4rna.svg/2000px-Stj%C3%A4rna.svg.png" alt="star"/>
+  <h1 align="center"><b>T E S T I N G<br>I S<br>F U N</b></h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Stj%C3%A4rna.svg/2000px-Stj%C3%A4rna.svg.png" alt="star"/>
+  </body>
+ </div>
